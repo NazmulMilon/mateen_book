@@ -5,7 +5,6 @@ def my_name(myname):
 my_name('Nazmul')
 
 
-
 def addition(a,b):
     sum=a+b
     print(sum)
@@ -17,17 +16,3 @@ def add(a,b,c):
 temp=add(1,2,3)
 print(temp)
 
-'''
-## Required_Arguements
-def add(a, b, c):
-    return a+b+c
-temp = add(1, 2)
-print(temp)
-'''
-
-
-## Keyword Argument
-def add(a, b, c):
-    return a+b+c
-temp = add(b=2, c=3, a=1)
-print(temp)
